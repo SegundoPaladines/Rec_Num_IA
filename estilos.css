@@ -1,0 +1,54 @@
+body{color: white;
+    background-image: linear-gradient(to right bottom, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+}
+#fondo{
+    position: relative;
+    margin-top:5%;
+    margin-bottom:10%;
+}
+#resultado {
+    font-weight:  bold;
+    font-size:  8rem;
+    text-align: center;
+}
+
+.canvas-container {
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    border-radius: 5%;
+    background-color: white;
+}
+#borrar {
+    width: 100%;
+    background: linear-gradient(to left, #845EC2, #008F7A);
+    display: inline-block;
+    padding: 10px 20px;
+    border: 3px solid black;
+    border-radius: 4px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    transition: background-color 0.3s, border-color 0.3s, color 0.3s;
+}
+
+#borrar:hover{
+    background: linear-gradient(to left, #1f1e1c, #845EC2);
+}
+
+#predecir{
+    width: 100%;
+    background: linear-gradient(to left, #845EC2, #008F7A);
+    display: inline-block;
+    padding: 10px 20px;
+    border: 3px solid black;
+    border-radius: 4px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    transition: background-color 0.3s, border-color 0.3s, color 0.3s;
+}
+#predecir:hover{
+    background: linear-gradient(to left, #1f1e1c, #845EC2);
+}

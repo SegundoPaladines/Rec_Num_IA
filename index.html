@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Reconocimiento de Numeros</title>
+    <link href="/estilos.css" rel="stylesheet">
+  </head>
+  <body>
+
+    <div id="fondo">
+        <center>
+          <div>
+            <h2>Red Neuronal Convolucional Para Reconocimiento de Numeros Escritos a Mano</h2>
+          </div>
+        </center>
+
+        <center>
+          <table id="t1">
+            <tr>
+              <td width="50%">
+                <center> <h3>Dibuje el Número</h3> </center>
+              </td>
+              <td width="50%">
+                <center> <h3>Resultado</h3> </center>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <canvas id="contenedor_principal" width="200" height="200"></canvas>
+                <canvas id="contendor_dibujo" width="28" height="28" style="display: none"></canvas>
+              </td>
+              <td>
+                <div id="resultado"></div>
+              </td>
+            </tr>
+            <tr><td colspan="2"><br></td></tr>
+            <tr>
+              <td>
+                <center>
+                  <button id="predecir" onclick="predecir()">Predecir</button>
+                </center>
+              </td>
+              <td>
+                <center>
+                  <button id="borrar" onclick="borrar()">Borrar</button>
+                </center>
+              </td>
+            </tr>
+          </table>
+        </center>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@2.0.0/dist/tf.min.js"></script>
+    <script src="fabric.min.js"/></script>
+    <script src="dibujar.js"></script>
+    <script src="modelo.js"></script>
+  </body>
+</html>
