@@ -1,0 +1,1 @@
+## Algunas partes del codigo se sacaron de foros y diferentes sitios de internet, creditos a quien corresponda
